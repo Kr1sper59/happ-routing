@@ -3,7 +3,7 @@ name: Build geo-files and Happ routing
 on:
   schedule:
     - cron: "20 4 * * *"   # ежедневно 04:20 UTC (07:20 МСК)
-  workflow_dispatch:        # ручной запуск из вкладки Actions
+  workflow_dispatch:        
   push:
     branches: [main]
     paths:
